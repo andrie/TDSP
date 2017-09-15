@@ -1,0 +1,18 @@
+Package: TDSP
+Type: Package
+Title: Copy the Azure Team Data Science Process (TDSP) Folder Structure.
+Version: 0.0.1
+Authors@R: person("Andrie", "de Vries", role=c("aut", "cre"),
+    email="apdevries@gmail.com")
+Description: Copy the Azure Team Data Science Process (TDSP) folder structure.
+    This allows you to easily set up a workspace in accordance with the TDSP 
+    (https://github.com/Azure/Azure-TDSP-ProjectTemplate).
+    This package is designed to work with RStudio Project Templates 
+    (https://rstudio.github.io/rstudio-extensions/rstudio_project_templates.html#overview),
+    i.e. it will add a menu entry in the "New Project..." dialog in the RStudio IDE.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Date: 2017-09-15
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
