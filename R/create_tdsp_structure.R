@@ -1,4 +1,4 @@
-#' Copy the Azure TDSP projec structure.
+#' Copy the Azure TDSP project structure.
 #'
 #' Copies the [TDSP template](https://github.com/Azure/Azure-TDSP-ProjectTemplate) to a new folder.
 #'

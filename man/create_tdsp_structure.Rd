@@ -2,7 +2,7 @@
 % Please edit documentation in R/create_tdsp_structure.R
 \name{create_tdsp_structure}
 \alias{create_tdsp_structure}
-\title{Copy the Azure TDSP projec structure.}
+\title{Copy the Azure TDSP project structure.}
 \usage{
 create_tdsp_structure(path = ".")
 }

@@ -1,0 +1,44 @@
+---
+title: "Copy the Azure Team Data Science Process (TDSP) Folder Structure."
+author: "Andrie de Vries"
+output: md_document
+---
+
+```{r, setup, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(
+  comment = "#",
+  tidy = FALSE,
+  fig.width = 8,
+  fig.height = 8)
+```
+
+[![Linux Build Status](https://travis-ci.org/andrie/TDSP.svg?branch=master)](https://travis-ci.org/andrie/TDSP)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/github/andrie/TDSP?svg=true)](https://ci.appveyor.com/project/andrie/TDSP)
+[![](http://www.r-pkg.org/badges/version/TDSP)](http://www.r-pkg.org/pkg/TDSP)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/TDSP)](http://www.r-pkg.org/pkg/TDSP)
+[![Coverage Status](https://img.shields.io/codecov/c/github/andrie/TDSP/master.svg)](https://codecov.io/github/andrie/TDSP?branch=master)
+
+
+## Installation
+
+Install the package using the `install-github.me` service:
+
+```{r, eval = FALSE}
+source("https://install-github.me/andrie/TDSP")
+```
+    
+Or using `devtools`:
+
+```{r, eval = FALSE}
+devtools::install_github("andrie/TDSP")
+```
+
+
+## Usage
+
+```{r, child="inst/vignette_child/child.Rmd"}
+```
+
+## License
+
+MIT © Andrie de Vries
